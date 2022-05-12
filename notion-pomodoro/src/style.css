@@ -1,0 +1,140 @@
+html {
+  position: relative;
+}
+
+body {
+  /* Disable text selection so buttons aren't highlighted when rapidly clicked */
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #ffffff;
+}
+
+.container {
+  min-width: 220px;
+  max-width: 320px;
+}
+
+
+.timer p {
+  color: black;
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.title {
+  font-size: 1.5em;
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.progress {
+  width: 50%;
+}
+
+.progress-bar {
+  color: #3b4e3e;
+  font-weight: bold;
+  background-color: #a5b9ad
+}
+
+.clock-time {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 4em;
+  color: black;
+  margin-top: 0.25em;
+}
+
+.play-reset-row {
+  font-size: 1.5em;
+  padding:1em;
+  color: #3b4e3e;
+  margin-top: 0.5em;
+}
+
+#sessionCount {
+  color: black;
+}
+
+.time-adjustment-row {
+  white-space: nowrap;
+}
+
+.task-time-display,
+.break-time-display {
+  font-size: 1.5em;
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.space {
+  margin-bottom: 0;
+  margin-top: 0.75em;
+  border: white;
+}
+
+.fa-inverse {
+  color: #c6d7c8;
+}
+
+.btn {
+  color: white;
+  margin: 0;
+  background-color: #56675f;
+  border: none;
+}
+
+.settings p {
+  text-align: left;
+  margin: 1em 0 0 0;
+}
+
+.checkbox p {
+  text-align: left;
+  margin: 0 0 .5em 0;
+}
+/* Show link pointer so users know icons are clickable */
+
+.icon {
+  cursor: pointer;
+}
+
+.icon:active {
+  transform: scale(0.9);
+}
+
+/* footer formatting */
+.footer {
+  background-color: #f9eeee;
+  position: absolute;
+  border-top: none;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 12px;
+  margin-top: 1em;
+}
+
+.footer-logos {
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+.footer-logos a {
+  text-decoration: none;
+}
+
+.footer-logos i {
+  color: white;
+  border: 1px solid rgba(100, 100, 100, .3);
+  border-radius: 25%;
+  vertical-align: text-bottom;
+  padding: .25em;
+  margin-right: .5em;
+}
+.white {
+  color:white;
+}
